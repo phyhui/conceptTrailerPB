@@ -5,8 +5,17 @@ h1{
     color: white;
     font-size:300%;
 }
-#title{
-    margin:50px;
+h2{
+    color: white;
+}
+#title1{
+    margin-top:50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#title2{
+    margin-top: 0px;
+    margin-bottom: 30px;
     text-align: center;
 }
 #outerContainer{
@@ -24,15 +33,23 @@ h1{
 }
 @media (min-width: 320px) and (max-width: 480px) {
     h1{
-        font-size:120%;
+        font-size:140%;
+    }
+    h2{
+        font-size: 80%;
     }
     #actualVideo{
         width: 301px;
         height: 213px;
     }
 
-    #title{
+    #title1{
         margin-top: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
+    #title2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
   }
