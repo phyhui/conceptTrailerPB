@@ -22,3 +22,17 @@ h1{
     width:auto;
     margin:5px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    h1{
+        font-size:120%;
+    }
+    #actualVideo{
+        width: 301px;
+        height: 213px;
+    }
+
+    #title{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+  }
